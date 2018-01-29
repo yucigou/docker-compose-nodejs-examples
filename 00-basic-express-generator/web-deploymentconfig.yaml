@@ -36,6 +36,6 @@ spec:
       - web
       from:
         kind: ImageStreamTag
-        name: web:latest
+        name: web:1.0.0
     type: ImageChange
 status: {}

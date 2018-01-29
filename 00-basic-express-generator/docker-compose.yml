@@ -3,7 +3,7 @@ version: '3'
 services:
 
   web:
-    image: ygou/nodejs-web00
+    image: ygou/nodejs-web00:1.0.0
     build: .
 #    volumes:
 #      - "./app:/src/app"

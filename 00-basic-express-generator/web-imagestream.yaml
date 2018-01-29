@@ -10,9 +10,9 @@ spec:
   - annotations: null
     from:
       kind: DockerImage
-      name: ygou/nodejs-web00
+      name: ygou/nodejs-web00:1.0.0
     generation: null
     importPolicy: {}
-    name: latest
+    name: 1.0.0
 status:
   dockerImageRepository: ""
