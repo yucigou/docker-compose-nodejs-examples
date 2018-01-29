@@ -1,6 +1,11 @@
-web:
-  build: .
-  volumes:
-    - "./app:/src/app"
-  ports:
-    - "3030:3000"
+version: '3'
+
+services:
+
+  web:
+    image: ygou/nodejs-web00
+    build: .
+#    volumes:
+#      - "./app:/src/app"
+    ports:
+      - "3030:3000"

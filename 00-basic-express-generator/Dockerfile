@@ -5,6 +5,8 @@ RUN mkdir /src
 RUN npm install express-generator -g
 
 WORKDIR /src
+COPY app /src/app
+
 ADD app/package.json /src/package.json
 RUN npm install
 
